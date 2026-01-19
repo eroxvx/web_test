@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AISH 전문가 훈련 과정 - AI 상위 1%로 가는 5주</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700;800&display=swap');
+        body { font-family: 'Pretendard', sans-serif; scroll-behavior: smooth; }
+        .bg-glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+        .text-gradient { background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hover-lift { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .hover-lift:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/70 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center gap-2">
+                    <span class="text-2xl font-extrabold tracking-tighter text-indigo-600">AISH <span class="text-slate-400">|</span> <span class="text-slate-900">EXPERT</span></span>
+                </div>
+                <div class="hidden md:flex items-center space-x-10">
+                    <a href="#why" class="text-sm font-semibold hover:text-indigo-600 transition">특장점</a>
+                    <a href="#curriculum" class="text-sm font-semibold hover:text-indigo-600 transition">커리큘럼</a>
+                    <a href="#apply" class="px-6 py-2.5 bg-indigo-600 text-white rounded-full text-sm font-bold hover:bg-indigo-700 transition shadow-md shadow-indigo-200">신청하기</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-40 pb-24 overflow-hidden bg-white">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full opacity-10 pointer-events-none">
+            <div class="absolute top-0 left-1/4 w-96 h-96 bg-indigo-400 rounded-full blur-[120px]"></div>
+            <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-400 rounded-full blur-[120px]"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 text-center relative z-10">
+            <div class="inline-flex items-center px-4 py-1.5 rounded-full bg-indigo-50 text-indigo-700 text-sm font-bold mb-8 border border-indigo-100">
+                <span class="flex h-2 w-2 rounded-full bg-indigo-600 mr-2 animate-ping"></span>
+                AISH 중급 회원을 위한 시크릿 마스터 클래스
+            </div>
+            <h1 class="text-4xl md:text-7xl font-extrabold mb-8 leading-[1.15] tracking-tight text-slate-900">
+                5주 만에 AI 활용 능력<br><span class="text-gradient">상위 1% 전문가</span>로 도약하십시오.
+            </h1>
+            <p class="text-lg md:text-2xl text-slate-600 mb-12 max-w-4xl mx-auto leading-relaxed font-medium">
+                이론은 끝났습니다. 이제는 실전입니다. 정부과제부터 전자책 출간, 업무 자동화까지<br class="hidden md:block"> 핵심 실무 역량을 완벽하게 체득하는 <span class="text-indigo-600 font-bold">전문가(Expert) 훈련 과정</span>에 초대합니다.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-5">
+                <a href="#apply" class="px-10 py-5 bg-indigo-600 text-white rounded-2xl font-bold text-xl hover:bg-indigo-700 transition-all shadow-xl shadow-indigo-100 flex items-center justify-center">
+                    전문가 과정 신청하기 <i class="fas fa-arrow-right ml-3"></i>
+                </a>
+                <div class="flex items-center justify-center gap-6 px-6 py-4 bg-slate-50 rounded-2xl border border-slate-100 text-slate-500 font-semibold">
+                    <span><i class="fas fa-video text-indigo-500 mr-2"></i>원격 라이브 실습</span>
+                    <span class="w-px h-4 bg-slate-300"></span>
+                    <span><i class="fas fa-user-tie text-indigo-500 mr-2"></i>전문가 직강</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem & Solution Section -->
+    <section id="why" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-5xl font-bold mb-8 leading-tight">
+                        AI를 배웠지만,<br>여전히 실무 적용이<br><span class="text-indigo-400">막막하신가요?</span>
+                    </h2>
+                    <ul class="space-y-6">
+                        <li class="flex items-start gap-4">
+                            <div class="w-6 h-6 rounded-full bg-red-500/20 text-red-500 flex flex-shrink-0 items-center justify-center mt-1">
+                                <i class="fas fa-times text-xs"></i>
+                            </div>
+                            <p class="text-slate-300 text-lg">기능은 알겠는데, 어떻게 비즈니스 결과물로 바꿀지 모른다.</p>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div class="w-6 h-6 rounded-full bg-red-500/20 text-red-500 flex flex-shrink-0 items-center justify-center mt-1">
+                                <i class="fas fa-times text-xs"></i>
+                            </div>
+                            <p class="text-slate-300 text-lg">파편화된 정보들 사이에서 실전 워크플로우를 찾지 못했다.</p>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div class="w-6 h-6 rounded-full bg-red-500/20 text-red-500 flex flex-shrink-0 items-center justify-center mt-1">
+                                <i class="fas fa-times text-xs"></i>
+                            </div>
+                            <p class="text-slate-300 text-lg">혼자서 결과물을 만들기에는 기술적 장벽과 시간이 부족하다.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-indigo-600/10 border border-indigo-500/30 rounded-3xl p-10 relative overflow-hidden">
+                    <div class="absolute -top-10 -right-10 w-40 h-40 bg-indigo-500/20 rounded-full blur-3xl"></div>
+                    <div class="relative z-10">
+                        <h3 class="text-2xl font-bold mb-6 text-indigo-300 italic">"The Result-Oriented Training"</h3>
+                        <p class="text-xl leading-relaxed mb-8">
+                            우리는 단순히 듣기만 하는 강의를 하지 않습니다. <br><br>
+                            <span class="text-white font-bold bg-indigo-500 px-2 py-1">실제 사업계획서 완성, 전자책 출판 완료, 업무 에이전트 구축</span>까지. 5주 후 당신의 손에는 눈에 보이는 **'성과물'**이 남게 됩니다.
+                        </p>
+                        <div class="flex items-center gap-4 text-indigo-200 font-bold">
+                            <i class="fas fa-quote-left text-3xl opacity-50"></i>
+                            <span>결과로 증명하는 상위 1%의 방식</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Overview -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-wrap justify-between items-end mb-16 gap-8">
+                <div>
+                    <h2 class="text-4xl font-extrabold mb-4">교육 개요</h2>
+                    <p class="text-slate-500 text-lg font-medium font-medium">최적의 환경에서 실무 역량을 압축적으로 습득합니다.</p>
+                </div>
+                <div class="flex gap-4">
+                    <div class="px-6 py-4 bg-slate-50 rounded-2xl border border-slate-100">
+                        <p class="text-xs text-slate-400 font-bold mb-1">교육 기간</p>
+                        <p class="font-bold">2026.02.11 ~ 03.18</p>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-50 rounded-2xl border border-slate-100">
+                        <p class="text-xs text-slate-400 font-bold mb-1">수업 시간</p>
+                        <p class="font-bold">매주 저녁 9시 ~ 11시</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-3xl bg-indigo-50 border border-indigo-100">
+                    <div class="w-12 h-12 bg-white text-indigo-600 rounded-2xl flex items-center justify-center shadow-sm mb-6 text-xl">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">비대면 실시간 세션</h4>
+                    <p class="text-slate-600 leading-relaxed">Zoom/구글미트를 통해 어디서든 참여하며, 강사와 실시간으로 소통하고 피드백을 받습니다.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-purple-50 border border-purple-100">
+                    <div class="w-12 h-12 bg-white text-purple-600 rounded-2xl flex items-center justify-center shadow-sm mb-6 text-xl">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">즉각적인 실습 환경</h4>
+                    <p class="text-slate-600 leading-relaxed">이론 설명 직후 바로 툴을 다루며 내 프로젝트에 적용해보는 '러닝 바이 두잉' 방식을 채택합니다.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-blue-50 border border-blue-100">
+                    <div class="w-12 h-12 bg-white text-blue-600 rounded-2xl flex items-center justify-center shadow-sm mb-6 text-xl">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">최종 전문가 인증</h4>
+                    <p class="text-slate-600 leading-relaxed">모든 과정을 수료하고 결과물을 제출한 회원에게는 AISH 전문가 인증 및 커뮤니티 권한이 부여됩니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Details -->
+    <section id="curriculum" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold mb-4">전문가 과정 커리큘럼</h2>
+                <p class="text-slate-500 text-lg">5주간 다루게 될 8가지 핵심 전문 영역입니다.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Session 1 -->
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 hover-lift">
+                    <div class="text-xs font-bold text-indigo-600 mb-2 uppercase tracking-widest">Session 1</div>
+                    <h4 class="text-lg font-bold mb-3">정부지원사업 마스터</h4>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">회사 정부과제 사업계획서 전문가 되기. 승인 확률을 높이는 AI 기획 전략.</p>
+                    <span class="text-xs bg-slate-100 px-2 py-1 rounded font-semibold text-slate-600">#기획전문가</span>
+                </div>
+                <!-- Session 2 -->
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 hover-lift">
+                    <div class="text-xs font-bold text-indigo-600 mb-2 uppercase tracking-widest">Session 2</div>
+                    <h4 class="text-lg font-bold mb-3">영상 마케팅 정복</h4>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">회사 제품 유튜브 CF 동영상 제작. 하이퀄리티 비주얼로 브랜드 가치 극대화.</p>
+                    <span class="text-xs bg-slate-100 px-2 py-1 rounded font-semibold text-slate-600">#영상마스터</span>
+                </div>
+                <!-- Session 3 -->
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 hover-lift">
+                    <div class="text-xs font-bold text-indigo-600 mb-2 uppercase tracking-widest">Session 3</div>
+                    <h4 class="text-lg font-bold mb-3">퍼스널 브랜딩</h4>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">AI로 5주 만에 교보문고 내 이름으로 전자책 출간하기. 작가 데뷔 완성.</p>
+                    <span class="text-xs bg-slate-100 px-2 py-1 rounded font-semibold text-slate-600">#전자책작가</span>
+                </div>
+                <!-- Session 4 -->
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 hover-lift">
+                    <div class="text-xs font-bold text-indigo-600 mb-2 uppercase tracking-widest">Session 4</div>
+                    <h4 class="text-lg font-bold mb-3">웹사이트 구축</h4>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">초보자도 AI로 회사 홈페이지 및 랜딩페이지 1시간 만에 완성하기.</p>
+                    <span class="text-xs bg-slate-100 px-2 py-1 rounded font-semibold text-slate-600">#웹구축실무</span>
+                </div>
+                <!-- Session 5 -->
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 hover-lift">
+                    <div class="text-xs font-bold text-indigo-600 mb-2 uppercase tracking-widest">Session 5</div>
+                    <h4 class="text-lg font-bold mb-3">업무 혁신</h4>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">AI 업무자동화 에이전트 완성하기. 내 일을 대신해줄 지능형 비서 구축.</p>
+                    <span class="text-xs bg-slate-100 px-2 py-1 rounded font-semibold text-slate-600">#에이전트자동화</span>
+                </div>
+                <!-- Session 6 -->
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 hover-lift">
+                    <div class="text-xs font-bold text-indigo-600 mb-2 uppercase tracking-widest">Session 6</div>
+                    <h4 class="text-lg font-bold mb-3">스마트 워크</h4>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">Notebook LM을 활용한 제안서 및 강의자료 즉시 제작하기. 정보 요약의 혁명.</p>
+                    <span class="text-xs bg-slate-100 px-2 py-1 rounded font-semibold text-slate-600">#데이터분석</span>
+                </div>
+                <!-- Session 7 -->
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 hover-lift">
+                    <div class="text-xs font-bold text-indigo-600 mb-2 uppercase tracking-widest">Session 7</div>
+                    <h4 class="text-lg font-bold mb-3">협업 툴 기초</h4>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">구글 워크스페이스(Gmail, 드라이브, 제미나이) 완전 정복 및 연동 시스템.</p>
+                    <span class="text-xs bg-slate-100 px-2 py-1 rounded font-semibold text-slate-600">#워크플레이스</span>
+                </div>
+                <!-- Session 8 -->
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 hover-lift">
+                    <div class="text-xs font-bold text-indigo-600 mb-2 uppercase tracking-widest">Session 8</div>
+                    <h4 class="text-lg font-bold mb-3">멀티모달 콘텐츠</h4>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">미드저니, 캔바, 제미나이를 활용한 고퀄리티 회사 홍보영상 제작.</p>
+                    <span class="text-xs bg-slate-100 px-2 py-1 rounded font-semibold text-slate-600">#멀티모달마스터</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA & Form Section -->
+    <section id="apply" class="py-24 bg-white relative">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-extrabold mb-6 italic leading-tight">
+                    2026년, 당신의 커리어를 바꿀 5주.<br>지금 바로 전문가 대열에 합류하세요.
+                </h2>
+                <div class="flex items-center justify-center gap-2 text-red-600 font-bold text-lg mb-8">
+                    <i class="fas fa-hourglass-half"></i>
+                    <span>접수 기간: 2026.01.26 ~ 01.30 (단 5일간 한정 접수)</span>
+                </div>
+            </div>
+
+            <div class="bg-slate-900 rounded-[2.5rem] p-8 md:p-12 shadow-2xl relative">
+                <form id="applyForm" class="space-y-6 text-white">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                            <label class="block text-sm font-bold text-slate-400">성명</label>
+                            <input type="text" placeholder="성함을 입력하세요" class="w-full bg-slate-800 border-none rounded-2xl py-4 px-6 text-white focus:ring-2 focus:ring-indigo-500 outline-none transition" required>
+                        </div>
+                        <div class="space-y-2">
+                            <label class="block text-sm font-bold text-slate-400">연락처</label>
+                            <input type="tel" placeholder="010-0000-0000" class="w-full bg-slate-800 border-none rounded-2xl py-4 px-6 text-white focus:ring-2 focus:ring-indigo-500 outline-none transition" required>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="block text-sm font-bold text-slate-400">이메일 주소</label>
+                        <input type="email" placeholder="example@aish.com" class="w-full bg-slate-800 border-none rounded-2xl py-4 px-6 text-white focus:ring-2 focus:ring-indigo-500 outline-none transition" required>
+                    </div>
+                    
+                    <div class="space-y-4">
+                        <label class="block text-sm font-bold text-slate-400">참가 희망 과정 선택 (중복 선택 가능)</label>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                            <label class="flex items-center gap-3 p-4 bg-slate-800 rounded-xl cursor-pointer hover:bg-slate-700 transition">
+                                <input type="checkbox" class="w-5 h-5 rounded border-none bg-slate-600 text-indigo-500 focus:ring-0">
+                                <span class="text-sm font-medium">사업계획서 전문가</span>
+                            </label>
+                            <label class="flex items-center gap-3 p-4 bg-slate-800 rounded-xl cursor-pointer hover:bg-slate-700 transition">
+                                <input type="checkbox" class="w-5 h-5 rounded border-none bg-slate-600 text-indigo-500 focus:ring-0">
+                                <span class="text-sm font-medium">유튜브 CF 동영상 제작</span>
+                            </label>
+                            <label class="flex items-center gap-3 p-4 bg-slate-800 rounded-xl cursor-pointer hover:bg-slate-700 transition">
+                                <input type="checkbox" class="w-5 h-5 rounded border-none bg-slate-600 text-indigo-500 focus:ring-0">
+                                <span class="text-sm font-medium">교보문고 전자책 출간</span>
+                            </label>
+                            <label class="flex items-center gap-3 p-4 bg-slate-800 rounded-xl cursor-pointer hover:bg-slate-700 transition">
+                                <input type="checkbox" class="w-5 h-5 rounded border-none bg-slate-600 text-indigo-500 focus:ring-0">
+                                <span class="text-sm font-medium">홈페이지 및 랜딩페이지</span>
+                            </label>
+                            <label class="flex items-center gap-3 p-4 bg-slate-800 rounded-xl cursor-pointer hover:bg-slate-700 transition">
+                                <input type="checkbox" class="w-5 h-5 rounded border-none bg-slate-600 text-indigo-500 focus:ring-0">
+                                <span class="text-sm font-medium">업무자동화 에이전트</span>
+                            </label>
+                            <label class="flex items-center gap-3 p-4 bg-slate-800 rounded-xl cursor-pointer hover:bg-slate-700 transition">
+                                <input type="checkbox" class="w-5 h-5 rounded border-none bg-slate-600 text-indigo-500 focus:ring-0">
+                                <span class="text-sm font-medium">Notebook LM 제안서</span>
+                            </label>
+                            <label class="flex items-center gap-3 p-4 bg-slate-800 rounded-xl cursor-pointer hover:bg-slate-700 transition">
+                                <input type="checkbox" class="w-5 h-5 rounded border-none bg-slate-600 text-indigo-500 focus:ring-0">
+                                <span class="text-sm font-medium">구글 워크스페이스 정복</span>
+                            </label>
+                            <label class="flex items-center gap-3 p-4 bg-slate-800 rounded-xl cursor-pointer hover:bg-slate-700 transition">
+                                <input type="checkbox" class="w-5 h-5 rounded border-none bg-slate-600 text-indigo-500 focus:ring-0">
+                                <span class="text-sm font-medium">고퀄리티 홍보영상 제작</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="button" onclick="submitForm()" class="w-full py-5 bg-indigo-500 text-white rounded-2xl font-black text-xl hover:bg-indigo-400 transition transform active:scale-[0.98] shadow-lg shadow-indigo-500/20">
+                        [전문가 과정 신청하기]
+                    </button>
+                    <p class="text-center text-xs text-slate-500">신청 정보를 제출하시면 빠른 시일 내에 상세 안내 메일을 보내드립니다.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Simple Footer -->
+    <footer class="py-12 bg-slate-50 text-center border-t border-slate-200">
+        <p class="font-bold text-slate-800 mb-2">AISH 교육협회</p>
+        <p class="text-sm text-slate-400">© 2026 AISH. 모든 권리는 교육협회에 있습니다.</p>
+    </footer>
+
+    <!-- Custom Toast Message -->
+    <div id="toast" class="fixed bottom-10 left-1/2 -translate-x-1/2 bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold shadow-2xl transition-opacity duration-500 opacity-0 pointer-events-none z-[100]">
+        신청이 정상적으로 접수되었습니다. 감사합니다!
+    </div>
+
+    <script>
+        function submitForm() {
+            const toast = document.getElementById('toast');
+            // 애니메이션 효과
+            toast.style.opacity = '1';
+            toast.style.pointerEvents = 'auto';
+            
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.pointerEvents = 'none';
+                document.getElementById('applyForm').reset();
+            }, 3000);
+        }
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
